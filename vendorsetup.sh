@@ -3,6 +3,7 @@ add_lunch_combo cyanogen_blade-eng
 add_lunch_combo cyanogen_bravo-eng
 add_lunch_combo cyanogen_bravoc-eng
 add_lunch_combo cyanogen_buzz-eng
+add_lunch_combo cyanogen_captivate-eng
 add_lunch_combo cyanogen_click-eng
 add_lunch_combo cyanogen_crespo-eng
 #add_lunch_combo cyanogen_dream_sapphire-eng
