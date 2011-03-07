@@ -7,6 +7,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_captivate.mk \
     $(LOCAL_DIR)/cyanogen_click.mk \
     $(LOCAL_DIR)/cyanogen_crespo.mk \
+    $(LOCAL_DIR)/cyanogen_dream_sapphire.mk \
     $(LOCAL_DIR)/cyanogen_encore.mk \
     $(LOCAL_DIR)/cyanogen_espresso.mk \
     $(LOCAL_DIR)/cyanogen_hero.mk \
@@ -25,6 +26,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_sholes.mk \
     $(LOCAL_DIR)/cyanogen_supersonic.mk \
     $(LOCAL_DIR)/cyanogen_vibrant.mk \
+    $(LOCAL_DIR)/cyanogen_vega.mk \
     $(LOCAL_DIR)/cyanogen_vision.mk \
     $(LOCAL_DIR)/cyanogen_z71.mk
-#    $(LOCAL_DIR)/cyanogen_dream_sapphire.mk \
