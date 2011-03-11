@@ -1,5 +1,5 @@
 # Inherit device configuration for GalaxyTab.
-$(call inherit-product, device/samsung/galaxytab/galaxytab.mk)
+$(call inherit-product, device/samsung/galaxytab/device_galaxytab.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
