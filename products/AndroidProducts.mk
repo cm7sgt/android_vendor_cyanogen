@@ -16,6 +16,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_generic.mk \
     $(LOCAL_DIR)/cyanogen_galaxys.mk \
     $(LOCAL_DIR)/cyanogen_galaxysb.mk \
+    $(LOCAL_DIR)/cyanogen_galaxytab.mk \
     $(LOCAL_DIR)/cyanogen_glacier.mk \
     $(LOCAL_DIR)/cyanogen_harmony.mk \
     $(LOCAL_DIR)/cyanogen_legend.mk \
