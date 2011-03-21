@@ -40,7 +40,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/galaxytab
 
 # Add additional mounts
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.additionalmounts=/mnt/emmc
+    ro.removablemounts=/mnt/emmc
 
 #
 # Set ro.modversion
