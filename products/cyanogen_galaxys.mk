@@ -1,3 +1,4 @@
+CYANOGEN_NIGHTLY := true
 # Inherit AOSP device configuration for galaxys.
 $(call inherit-product, device/samsung/galaxys/full_galaxys.mk)
 
@@ -36,7 +37,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Add additional mounts
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.removablemounts=/mnt/emmc
+    ro.additionalmounts=/mnt/emmc
 
 #
 # Set ro.modversion

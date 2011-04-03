@@ -1,3 +1,5 @@
+CYANOGEN_NIGHTLY := true
+
 # Inherit AOSP device configuration for captivate.
 $(call inherit-product, device/samsung/captivate/full_captivate.mk)
 
@@ -33,7 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Add additional mounts
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.removablemounts=/mnt/emmc
+    ro.additionalmounts=/mnt/emmc
 
 #
 # Set ro.modversion
