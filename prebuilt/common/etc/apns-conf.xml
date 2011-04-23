@@ -264,7 +264,7 @@
   <apn carrier="Tele2" mcc="240" mnc="07" apn="internet.tele2.se" mmsc="http://mmsc.tele2.se" mmsproxy="130.244.202.30" mmsport="8080" type="default,supl,mms" />
   <apn carrier="Telenor SE" mcc="240" mnc="08" apn="internet.telenor.se" type="default,supl" />
   <apn carrier="Telenor Mobilsurf" mcc="240" mnc="08" apn="services.telenor.se" proxy="172.30.253.241" port="8799" type="default,supl" />
-  <apn carrier="Telenor SE MMS" mcc="240" mnc="08" apn="services.telenor.se" mmsc="http://mss" mmsproxy="172.30.253.241" mmsport="8799" type="mms" />
+  <apn carrier="Telenor SE MMS" mcc="240" mnc="08" apn="services.telenor.se" mmsc="http://mms" mmsproxy="172.30.253.241" mmsport="8799" type="mms" />
   <apn carrier="TelenorMobilsurf" mcc="240" mnc="09" apn="services.telenor.se" proxy="173.30.253.241" port="8799" type="default,supl" />
   <apn carrier="Telenor MMS" mcc="240" mnc="09" apn="services.telenor.se" mmsc="http://mms" mmsproxy="173.30.253.241" mmsport="8799" type="mms" />
   <apn carrier="Spring data" mcc="240" mnc="10" apn="data.springmobil.se" type="default,supl" />
@@ -494,7 +494,8 @@
   <apn carrier="Si.mobil MMS" mcc="293" mnc="40" apn="mms.simobil.si" user="simobil" password="internet" mmsc="mmc" mmsproxy="80.95.224.46" mmsport="9201" type="mms" />
   <apn carrier="Mobitel Internet" mcc="293" mnc="41" apn="internet" user="mobitel" password="internet" proxy="213.229.249.40" port="8080" type="default,supl,mms" />
   <apn carrier="Mobitel MMS" mcc="293" mnc="41" apn="internet" user="mobitel" password="internet" mmsc="http://mms.mobitel.si/servlets/mms" mmsproxy="213.229.249.40" mmsport="8080" type="mms" />
-  <apn carrier="T-2 Internet" mcc="293" mnc="64" apn="t-2.net" mmsc="mms.t-2.net" mmsproxy="172.20.18.137" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="T-2 Internet" mcc="293" mnc="64" apn="internet.t-2.net" type="default,supl" />
+  <apn carrier="T-2 Mms" mcc="293" mnc="64" apn="mms.t-2.net" mmsc="http://www.mms.t-2.net:8002" mmsproxy="172.20.18.137" mmsport="8080" type="mms" />
   <apn carrier="Tusmobil Internet" mcc="293" mnc="70" apn="internet.tusmobil.si" user="tusmobil" password="internet" proxy="91.185.221.85" port="8002" type="default,supl,mms" />
   <apn carrier="T-Mobile MK" mcc="294" mnc="01" apn="internet" user="internet" password="t-mobile" type="default,supl" />
   <apn carrier="T-Mobile MK MMS" mcc="294" mnc="01" apn="mms" user="mms" password="mms" mmsc="http://mms.t-mobile.com.mk" mmsproxy="62.162.155.227" mmsport="8080" type="mms" />
