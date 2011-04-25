@@ -28,6 +28,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/ace
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
+# Add AicBootFix for ace battery fix
+PRODUCT_PACKAGES += AicBootFix
+
 # Broadcom FM radio
 $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
@@ -40,10 +43,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.0.0-RC2-DesireHD
+            ro.modversion=CyanogenMod-7.0.0-DesireHD
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.0.0-RC2-DesireHD-KANG
+            ro.modversion=CyanogenMod-7.0.0-DesireHD-KANG
     endif
 endif
 
