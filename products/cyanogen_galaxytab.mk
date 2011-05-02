@@ -51,10 +51,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.0.0-RC0-GalaxyTab
+            ro.modversion=CyanogenMod-7.1.0-Beta-GalaxyTab
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.0.0-RC0-GalaxyTab-KANG
+            ro.modversion=CyanogenMod-7.1.0-Beta-GalaxyTab-KANG
     endif
 endif
 
