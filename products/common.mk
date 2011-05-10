@@ -97,7 +97,8 @@ PRODUCT_COPY_FILES += \
 
 ifdef CYANOGEN_WITH_GOOGLE
     PRODUCT_COPY_FILES += \
-        vendor/cyanogen/proprietary/CarHomeLauncher.apk:./system/app/CarHomeLauncher.apk \
+        vendor/cyanogen/proprietary/BooksPhone.apk:./system/app/BooksPhone.apk \
+        vendor/cyanogen/proprietary/CarHomeGoogle.apk:./system/app/CarHomeGoogle.apk \
         vendor/cyanogen/proprietary/FOTAKill.apk:./system/app/FOTAKill.apk \
         vendor/cyanogen/proprietary/GenieWidget.apk:./system/app/GenieWidget.apk \
         vendor/cyanogen/proprietary/GoogleBackupTransport.apk:./system/app/GoogleBackupTransport.apk \
