@@ -19,7 +19,6 @@ add_lunch_combo cyanogen_galaxys-eng
 add_lunch_combo cyanogen_galaxysb-eng
 add_lunch_combo cyanogen_galaxytab-eng
 add_lunch_combo cyanogen_glacier-eng
-add_lunch_combo cyanogen_harmony-eng
 add_lunch_combo cyanogen_hero-eng
 add_lunch_combo cyanogen_heroc-eng
 add_lunch_combo cyanogen_inc-eng
@@ -27,11 +26,16 @@ add_lunch_combo cyanogen_legend-eng
 add_lunch_combo cyanogen_leo-eng
 add_lunch_combo cyanogen_liberty-eng
 add_lunch_combo cyanogen_mecha-eng
+add_lunch_combo cyanogen_morrison-eng
 add_lunch_combo cyanogen_one-eng
 add_lunch_combo cyanogen_p990-eng
 add_lunch_combo cyanogen_p999-eng
 add_lunch_combo cyanogen_passion-eng
 add_lunch_combo cyanogen_sholes-eng
+add_lunch_combo cyanogen_smb_a1002-eng
+add_lunch_combo cyanogen_smb_a1004-eng
+add_lunch_combo cyanogen_smb_a1011-eng
+add_lunch_combo cyanogen_smb_b9701-eng
 add_lunch_combo cyanogen_speedy-eng
 add_lunch_combo cyanogen_supersonic-eng
 add_lunch_combo cyanogen_u8220-eng
