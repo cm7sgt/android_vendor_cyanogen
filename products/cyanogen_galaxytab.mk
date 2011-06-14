@@ -39,22 +39,24 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/galaxytab
 #PRODUCT_SPECIFIC_DEFINES += TARGETARCH=arm
 
 # Add additional mounts
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.removablemounts=/mnt/emmc
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.removablemounts=/mnt/emmc
 
 #
 # Set ro.modversion
 #
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-GalaxyTab
+        ro.modversion=CyanogenMod-7--NIGHTLY-GalaxyTab
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
             ro.modversion=CyanogenMod-7.1.0-Beta-GalaxyTab
     else
+#        PRODUCT_PROPERTY_OVERRIDES += \
+#            ro.modversion=CyanogenMod-7.1.0-Beta-GalaxyTab-KANG
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Beta-GalaxyTab-KANG
+            ro.modversion=CyanogenMod-7-$(shell date +%Y-%m-%d)-Beta-GalaxyTab-KANG
     endif
 endif
 
