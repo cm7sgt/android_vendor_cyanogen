@@ -22,6 +22,7 @@ add_lunch_combo cyanogen_generic-eng
 add_lunch_combo cyanogen_galaxys-eng
 add_lunch_combo cyanogen_galaxysb-eng
 add_lunch_combo cyanogen_galaxytab-eng
+add_lunch_combo cyanogen_galaxytabc-eng
 add_lunch_combo cyanogen_glacier-eng
 add_lunch_combo cyanogen_hallon-eng
 add_lunch_combo cyanogen_hero-eng
